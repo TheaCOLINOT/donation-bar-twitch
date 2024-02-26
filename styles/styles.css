@@ -44,11 +44,12 @@
 
 #total-bar {
   position: absolute;
-  width: calc(100% - 8px);
+  /* width:  */
   height: calc(100% - 8px);
-  max-width: 100%;
+  max-width: calc(100% - 8px);;
   background: linear-gradient(90deg, #ff7cff 0%, #eecd00 100%);
   top: 4px;
   left: 4px;
   overflow: hidden;
+  transition: .3s;
 }
